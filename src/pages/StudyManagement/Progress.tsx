@@ -190,4 +190,8 @@ const Progress: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Progress;
+=======
+export default Progress;
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244

@@ -15,6 +15,7 @@
 			},
 		],
 	},
+<<<<<<< HEAD
 	{
 		path: '/room',
 		name: 'Quản lý phòng học',
@@ -153,6 +154,10 @@
 		component: './GuessingGame',
 		access: 'canUser',  // Tùy chỉnh quyền truy cập nếu cần
 	  },
+=======
+
+
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244
 	///////////////////////////////////
 	// DEFAULT MENU
 	{
@@ -173,6 +178,34 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/study-management',
+		name: 'study',
+		icon: 'read',
+		routes: [
+		  {
+			path: '/study-management/subjects',
+			name: 'subjects',
+			component: '@/pages/StudyManagement/Subjects',
+		  },
+		  {
+			path: '/study-management/progress',
+			name: 'progress',
+			component: '@/pages/StudyManagement/Progress',
+		  },
+		  {
+			path: '/study-management/goals',
+			name: 'goals',
+			component: '@/pages/StudyManagement/Goals',
+		  },
+		],
+	  },
+	{
+		path: '/trochoidoanso',
+		name: 'Trò chơi đoán số',
+		component: '@/pages/Game',
+		icon: 'CalculatorOutlined',
+	  },
 
 	// DANH MUC HE THONG
 	// {
@@ -227,5 +260,9 @@
 		component: './exception/404',
 	},
 	
+<<<<<<< HEAD
 ];
 
+=======
+];
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244

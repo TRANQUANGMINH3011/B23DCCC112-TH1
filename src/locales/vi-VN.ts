@@ -7,15 +7,20 @@ export default {
 	...pages,
 	'menu.guessing-game': 'Trò Chơi Đoán Số',
 	
+<<<<<<< HEAD
   'menu.rockpaperscissors': 'Oẳn Tù Tì',
   'menu.rockpaperscissors.game': 'Chơi game',
   'menu.rockpaperscissors.history': 'Lịch sử',
+=======
+
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244
   
   'menu.study': 'Quản lý học tập',
   'menu.study.subjects': 'Môn học',
   'menu.study.progress': 'Tiến độ',
   'menu.study.goals': 'Mục tiêu',
 
+<<<<<<< HEAD
   'menu.questionbank': 'Ngân hàng câu hỏi',
   'menu.questionbank.subjects': 'Quản lý môn học',
   'menu.questionbank.questions': 'Quản lý câu hỏi',
@@ -85,3 +90,7 @@ export default {
   'appointmentSystem.statistics.revenueByService': 'Doanh thu theo dịch vụ',
   'appointmentSystem.statistics.appointmentsByEmployee': 'Số lịch hẹn theo nhân viên',
 };
+=======
+
+};
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244

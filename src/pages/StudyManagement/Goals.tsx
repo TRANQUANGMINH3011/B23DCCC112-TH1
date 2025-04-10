@@ -192,4 +192,8 @@ const Goals: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Goals;
+=======
+export default Goals;
+>>>>>>> 89d3533ddb6e4c8039e399fcf14c84f71f3ff244
